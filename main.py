@@ -125,8 +125,8 @@ def send_data():
         messagebox.showerror("error" , i)
 
 def get_data(org , des , time , adlts):
-    api = "##########################"
-    api_secret = "##################"
+    api = "bkEq51IZGuuNHx2B8KofGBx04mxF5r12"
+    api_secret = "znT3COkhHQHuHCv8"
     amadeus = Client(client_id = api , client_secret = api_secret)
 
     try:
